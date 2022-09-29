@@ -1,0 +1,47 @@
+@media(max-width:950px){
+    .sidebar{
+        margin-right: 3rem;
+    }
+    .logo_container{
+        margin-left: 3rem;
+    }
+    .link{
+        margin-right: 2rem;
+    }
+    .page_links{
+        margin-left: 7rem;
+    }
+    .link>a{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+    .icon_container{
+        width: 0.8rem;
+    }
+    .product_photo_desktop{
+        margin-left: 3rem;
+    }
+    .product_contentDetails{
+        margin-right: 1rem !important;
+        width: 30%;
+    }
+    .product_contentDetails>h1{
+        font-size: 1.4rem !important;
+    }
+    .price_declaration{
+        width: 14rem;
+    }
+    .item_descriptionPara{
+        margin-top: 1rem;
+        
+    }
+    .item_descriptionPara>p{
+        margin-top: .2rem;
+    }
+    .item_descriptionPara>p:nth-child(2){
+        margin-top:.7rem;
+    }
+    .cartContainer {
+        left: 4rem;
+    }
+}

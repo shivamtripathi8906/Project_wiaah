@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@media(max-width:600px){
+    .header_discount_line{
+    font-size: 0.75rem;
+    }
+    .page_links{
+        display: none;
+    }
+    .diff_l{
+        display: none;
+    }
+    .navbar_container{
+      justify-content: space-between;
+    }
+    .logo_container{
+        width:8.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .sidebar{
+        margin-right: 0.1rem;
+    }
+    .cart{
+        width: 1.7rem;
+    }
+    .hamburger_menu{
+        display: block;
+        width: 1.1rem;
+        margin-left: .7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .hamburger_portion{
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        z-index: 1;
+        /* border: 1px solid black; */
+        background-color: white;
+        overflow: hidden;
+    }
+    .navbar_components{
+        margin-top: 3rem;
+        width: 100%;
+       font-family: 'Roboto Condensed';
+    }
+    .navbar_components>a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+    .buynow{
+        padding-top: 0.4rem;
+    }
+    .product_details_mainContainer{
+        flex-direction: column;
+        
+    }
+    .product_contentDetails{
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .twoButtons{
+        width: 110%;
+    }
+    .dopdown_menu{
+    width: 110%;
+    }
+    .price_declaration {
+        width: 100%;
+    }
+   .product_photo_desktop{
+    display: none;
+   }
+   .product_photo_mobile{
+    width: 91%;
+    /* border:1px solid black; */
+    display: block;
+    margin-left: 1rem;
+   }
+   .product_photo{
+    width: 100%;
+   }
+   .photoSelector{
+    margin-top: .8rem;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+   }
+   .threePhotosSelector{
+    width: 27%;
+    
+
+   }
+   .adderTool{
+   width: 10rem;   
+}
+   .threePhotosSelector>img{
+    width: 100%;
+    height: auto;
+   }
+   .displayPhoto{
+    width: 100%;
+
+   }
+   .displayPhoto>img{
+    width: 100%;
+    height: auto;
+   }
+   .photoSelector>img{
+    width: 1rem;
+   }
+   #photo_border1{
+    border:1px solid black;
+   }
+   .cartContainer {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+}
+@media(max-width:450px){
+    .productInCart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: .5rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgCart{
+        width: 15rem;
+        height: auto;
+    }
+    .cartProdDescript{
+        margin-top: 2rem;
+    }
+}
+
